@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		688CC4A01F090EB90050A4E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688CC49F1F090EB90050A4E8 /* AppDelegate.swift */; };
+		688CC4A21F090EB90050A4E8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688CC4A11F090EB90050A4E8 /* MasterViewController.swift */; };
+		688CC4A41F090EB90050A4E8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688CC4A31F090EB90050A4E8 /* DetailViewController.swift */; };
+		688CC4A71F090EB90050A4E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 688CC4A51F090EB90050A4E8 /* Main.storyboard */; };
+		688CC4A91F090EB90050A4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688CC4A81F090EB90050A4E8 /* Assets.xcassets */; };
+		688CC4AC1F090EB90050A4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 688CC4AA1F090EB90050A4E8 /* LaunchScreen.storyboard */; };
+		688CC4B71F090EBA0050A4E8 /* UMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688CC4B61F090EBA0050A4E8 /* UMapTests.swift */; };
+		688CC4C21F090EBA0050A4E8 /* UMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688CC4C11F090EBA0050A4E8 /* UMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		688CC4B31F090EBA0050A4E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 688CC4941F090EB90050A4E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 688CC49B1F090EB90050A4E8;
+			remoteInfo = UMap;
+		};
+		688CC4BE1F090EBA0050A4E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 688CC4941F090EB90050A4E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 688CC49B1F090EB90050A4E8;
+			remoteInfo = UMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		688CC49C1F090EB90050A4E8 /* UMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		688CC49F1F090EB90050A4E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		688CC4A11F090EB90050A4E8 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		688CC4A31F090EB90050A4E8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		688CC4A61F090EB90050A4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		688CC4A81F090EB90050A4E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		688CC4AB1F090EB90050A4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		688CC4AD1F090EB90050A4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		688CC4B21F090EBA0050A4E8 /* UMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		688CC4B61F090EBA0050A4E8 /* UMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMapTests.swift; sourceTree = "<group>"; };
+		688CC4B81F090EBA0050A4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		688CC4BD1F090EBA0050A4E8 /* UMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		688CC4C11F090EBA0050A4E8 /* UMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMapUITests.swift; sourceTree = "<group>"; };
+		688CC4C31F090EBA0050A4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		688CC4991F090EB90050A4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688CC4AF1F090EBA0050A4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688CC4BA1F090EBA0050A4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		688CC4931F090EB90050A4E8 = {
+			isa = PBXGroup;
+			children = (
+				688CC49E1F090EB90050A4E8 /* UMap */,
+				688CC4B51F090EBA0050A4E8 /* UMapTests */,
+				688CC4C01F090EBA0050A4E8 /* UMapUITests */,
+				688CC49D1F090EB90050A4E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		688CC49D1F090EB90050A4E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				688CC49C1F090EB90050A4E8 /* UMap.app */,
+				688CC4B21F090EBA0050A4E8 /* UMapTests.xctest */,
+				688CC4BD1F090EBA0050A4E8 /* UMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		688CC49E1F090EB90050A4E8 /* UMap */ = {
+			isa = PBXGroup;
+			children = (
+				688CC49F1F090EB90050A4E8 /* AppDelegate.swift */,
+				688CC4A11F090EB90050A4E8 /* MasterViewController.swift */,
+				688CC4A31F090EB90050A4E8 /* DetailViewController.swift */,
+				688CC4A51F090EB90050A4E8 /* Main.storyboard */,
+				688CC4A81F090EB90050A4E8 /* Assets.xcassets */,
+				688CC4AA1F090EB90050A4E8 /* LaunchScreen.storyboard */,
+				688CC4AD1F090EB90050A4E8 /* Info.plist */,
+			);
+			path = UMap;
+			sourceTree = "<group>";
+		};
+		688CC4B51F090EBA0050A4E8 /* UMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				688CC4B61F090EBA0050A4E8 /* UMapTests.swift */,
+				688CC4B81F090EBA0050A4E8 /* Info.plist */,
+			);
+			path = UMapTests;
+			sourceTree = "<group>";
+		};
+		688CC4C01F090EBA0050A4E8 /* UMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				688CC4C11F090EBA0050A4E8 /* UMapUITests.swift */,
+				688CC4C31F090EBA0050A4E8 /* Info.plist */,
+			);
+			path = UMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		688CC49B1F090EB90050A4E8 /* UMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688CC4C61F090EBA0050A4E8 /* Build configuration list for PBXNativeTarget "UMap" */;
+			buildPhases = (
+				688CC4981F090EB90050A4E8 /* Sources */,
+				688CC4991F090EB90050A4E8 /* Frameworks */,
+				688CC49A1F090EB90050A4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMap;
+			productName = UMap;
+			productReference = 688CC49C1F090EB90050A4E8 /* UMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		688CC4B11F090EBA0050A4E8 /* UMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688CC4C91F090EBA0050A4E8 /* Build configuration list for PBXNativeTarget "UMapTests" */;
+			buildPhases = (
+				688CC4AE1F090EBA0050A4E8 /* Sources */,
+				688CC4AF1F090EBA0050A4E8 /* Frameworks */,
+				688CC4B01F090EBA0050A4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				688CC4B41F090EBA0050A4E8 /* PBXTargetDependency */,
+			);
+			name = UMapTests;
+			productName = UMapTests;
+			productReference = 688CC4B21F090EBA0050A4E8 /* UMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		688CC4BC1F090EBA0050A4E8 /* UMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688CC4CC1F090EBA0050A4E8 /* Build configuration list for PBXNativeTarget "UMapUITests" */;
+			buildPhases = (
+				688CC4B91F090EBA0050A4E8 /* Sources */,
+				688CC4BA1F090EBA0050A4E8 /* Frameworks */,
+				688CC4BB1F090EBA0050A4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				688CC4BF1F090EBA0050A4E8 /* PBXTargetDependency */,
+			);
+			name = UMapUITests;
+			productName = UMapUITests;
+			productReference = 688CC4BD1F090EBA0050A4E8 /* UMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		688CC4941F090EB90050A4E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hungryCore;
+				TargetAttributes = {
+					688CC49B1F090EB90050A4E8 = {
+						CreatedOnToolsVersion = 7.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					688CC4B11F090EBA0050A4E8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 688CC49B1F090EB90050A4E8;
+					};
+					688CC4BC1F090EBA0050A4E8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 688CC49B1F090EB90050A4E8;
+					};
+				};
+			};
+			buildConfigurationList = 688CC4971F090EB90050A4E8 /* Build configuration list for PBXProject "UMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 688CC4931F090EB90050A4E8;
+			productRefGroup = 688CC49D1F090EB90050A4E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				688CC49B1F090EB90050A4E8 /* UMap */,
+				688CC4B11F090EBA0050A4E8 /* UMapTests */,
+				688CC4BC1F090EBA0050A4E8 /* UMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		688CC49A1F090EB90050A4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688CC4AC1F090EB90050A4E8 /* LaunchScreen.storyboard in Resources */,
+				688CC4A91F090EB90050A4E8 /* Assets.xcassets in Resources */,
+				688CC4A71F090EB90050A4E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688CC4B01F090EBA0050A4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688CC4BB1F090EBA0050A4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		688CC4981F090EB90050A4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688CC4A41F090EB90050A4E8 /* DetailViewController.swift in Sources */,
+				688CC4A21F090EB90050A4E8 /* MasterViewController.swift in Sources */,
+				688CC4A01F090EB90050A4E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688CC4AE1F090EBA0050A4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688CC4B71F090EBA0050A4E8 /* UMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688CC4B91F090EBA0050A4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688CC4C21F090EBA0050A4E8 /* UMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		688CC4B41F090EBA0050A4E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 688CC49B1F090EB90050A4E8 /* UMap */;
+			targetProxy = 688CC4B31F090EBA0050A4E8 /* PBXContainerItemProxy */;
+		};
+		688CC4BF1F090EBA0050A4E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 688CC49B1F090EB90050A4E8 /* UMap */;
+			targetProxy = 688CC4BE1F090EBA0050A4E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		688CC4A51F090EB90050A4E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				688CC4A61F090EB90050A4E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		688CC4AA1F090EB90050A4E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				688CC4AB1F090EB90050A4E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		688CC4C41F090EBA0050A4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		688CC4C51F090EBA0050A4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		688CC4C71F090EBA0050A4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = UMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungryCore.UMap.UMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		688CC4C81F090EBA0050A4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = UMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungryCore.UMap.UMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		688CC4CA1F090EBA0050A4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungryCore.UMap.UMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMap.app/UMap";
+			};
+			name = Debug;
+		};
+		688CC4CB1F090EBA0050A4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungryCore.UMap.UMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMap.app/UMap";
+			};
+			name = Release;
+		};
+		688CC4CD1F090EBA0050A4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungryCore.UMap.UMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UMap;
+			};
+			name = Debug;
+		};
+		688CC4CE1F090EBA0050A4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungryCore.UMap.UMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		688CC4971F090EB90050A4E8 /* Build configuration list for PBXProject "UMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688CC4C41F090EBA0050A4E8 /* Debug */,
+				688CC4C51F090EBA0050A4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		688CC4C61F090EBA0050A4E8 /* Build configuration list for PBXNativeTarget "UMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688CC4C71F090EBA0050A4E8 /* Debug */,
+				688CC4C81F090EBA0050A4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		688CC4C91F090EBA0050A4E8 /* Build configuration list for PBXNativeTarget "UMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688CC4CA1F090EBA0050A4E8 /* Debug */,
+				688CC4CB1F090EBA0050A4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		688CC4CC1F090EBA0050A4E8 /* Build configuration list for PBXNativeTarget "UMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688CC4CD1F090EBA0050A4E8 /* Debug */,
+				688CC4CE1F090EBA0050A4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 688CC4941F090EB90050A4E8 /* Project object */;
+}
